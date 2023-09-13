@@ -29,12 +29,12 @@ const NavBar = () => {
                       </MenuButton>
                       <MenuList>
                       <MenuItem>Todos nuestros productos</MenuItem>
-                        <Link to={`/category/${category.id}`} key={category.id}>
+                        
                             <MenuItem>Feminizadas</MenuItem>
-                        </Link>
-                        <Link to={`/category/${category.id}`} key={category.id}>
+                        
+                        
                             <MenuItem>Automaticas</MenuItem>
-                        </Link>
+                        
                      </MenuList>
                     </Menu>
                 </Box>
