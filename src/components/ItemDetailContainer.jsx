@@ -1,8 +1,7 @@
+import ItemDetail from "./ItemDetail"
 
-import ItemList from "./ItemList"
 
-const ItemListContainer = () => {
-
+const ItemDetailContainer = () => {
     let products = [
         { id: 1, name: "Runtz OG Auto x3", sabor: "Frutos rojos, pino, cítrico", THCLevel: "23%", price: 9000, category: "Auto", stock: 10, img: "/img/1.jpg"},
         { id: 2, name: "Black Citrus Auto x3", sabor: "Limón, incienso", THCLevel: "20%", price: 12500, category: "Auto", stock: 10, img: "/img/5.jpg"},
@@ -38,9 +37,9 @@ const ItemListContainer = () => {
 
     return (
         <>
-            <ItemList products={products}/>
+            <ItemDetail products={products}/>
         </>
     )
 }
 
-export default ItemListContainer 
+export default ItemDetailContainer
